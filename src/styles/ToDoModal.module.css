@@ -1,0 +1,51 @@
+.todobox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 70;
+}
+.outer_box{
+    height: auto;
+    padding: 10px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 7px;
+    position: relative;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: red;
+    height: auto;
+    width: auto;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-size: 22px;
+    transition: all 0.3s;
+}
+.close:focus{
+    border: 2px solid red;
+}
+.textFields{
+    margin-top: 20px;
+}
+.todoText{
+    width: 100%;
+}
+.btn{
+    margin: 20px 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}

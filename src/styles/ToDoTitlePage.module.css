@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: violet;
+    flex-direction: column;
+}
+.todobox{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    text-align: center;
+    /* margin: 20px 0; */
+}
